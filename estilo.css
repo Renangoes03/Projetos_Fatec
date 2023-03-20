@@ -1,0 +1,204 @@
+
+#navbar{
+margin-top: 2.5px;
+background-color: black;
+}
+body {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --dark-mode-color: #000000;
+    --dark-mode-bg-color: #ffffff;
+    --text-white: #ffffff;
+    --text-dark: #142136;
+    
+    /* cores de fundo */
+    --bg-grey-light: #f5f5f5;
+    --bg-white: #ffffff;
+    --bg-blue-dark: #142136;
+    --bg-indigo: #6366f1;
+    font-family: "Inter", sans-serif;
+    line-height: 1.7;
+    background-color: var(--bg-grey-light);
+    /*criando uma variável de css */
+    --bg-grey-light: #f5f5f5;
+    /*usando a variavel de css */
+    background-color: var(--bg-grey-light);
+}
+
+button {
+    font-size: medium;
+    background-color: #e1daed;
+    border-color: #66427a;
+    border-bottom-width: 2px;
+    border: thick double #32a1ce;
+    border-width: 15px;
+    width: 125px;
+    margin-top: 6px;
+}
+
+button:hover {
+    background-color: #d3bff7;
+    color: #66427a;
+}
+
+.containerCalculadora {
+    /* border-radius:10 fica quadrado; border-radius: 100 redondo*/
+    border-radius: 10px;
+    margin: 100px;
+    width: 650px;
+    background-color: #599aaf;
+    padding: 10px 16px 100px 16px;
+    background-image: url('./Img/error404.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.containerCalculadora h1 {
+    background: #748692;
+    margin-bottom: 30px;
+}
+
+.contentsInput input {
+    width: 150px;
+    padding-left: 5px;
+}
+
+#contents {
+    margin-bottom: 40px;
+}
+
+.BtnContents {
+    margin-bottom: 40px;
+}
+
+.dark {
+    --text-white: #e6e6e6;
+    --text-dark: #ffffff;
+    --bg-grey-light: #142136;
+    --bg-white: #22395d;
+    --bg-blue-dark: #142136;
+    --bg-indigo: #7577e1;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.button {
+    width: 200px;
+    padding: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: var(--bg-indigo);
+    color: var(--text-white);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+ .header {
+                color: rgb(106, 212, 212);
+                margin-top: 200px
+               
+            }
+
+            .form-floating {
+                background-color: whitesmoke;
+                padding: 20px;
+                border: 1px solid #DADCE0;
+                padding: 15px;
+                border-radius: 4px;
+                /* Tamanho do quadrado da div*/
+                width: 26.9%;
+
+
+            }
+
+            body {
+                --text-white: #ffffff;
+                --text-dark: #142136;
+
+                /* cores de fundo */
+              
+                --bg-blue-dark: #142136;
+                --bg-indigo: #6366f1;
+
+                font-family: "Inter", sans-serif;
+                line-height: 1.7;
+                background-color: var(--bg-grey-light);
+            }
+
+            .dark {
+                --text-white: #e6e6e6;
+                --text-dark: #ffffff;
+                --bg-grey-light: #142136;
+                --bg-white: #22395d;
+                --bg-blue-dark: #142136;
+                --bg-indigo: #7577e1;
+            }
+
+            .buttons {
+                width: 00px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 40px;
+              
+            }
+
+            .button {
+                width: 200px;
+                padding: 5px;
+                height: 40px;
+                border: none;
+                border-radius: 10px;
+                font-family: inherit;
+                cursor: pointer;
+                background-color: var(--bg-indigo);
+                color: var(--text-white);
+                font-size: 16px;
+                font-weight: 400;
+                text-transform: capitalize;
+              
+            }
+
+            #resultado {
+                width: 250px;
+                margin: 25px;
+            }
+
+            #Nome {
+                width: 250px;
+                margin: 25px;
+            }
+
+            #Peso {
+                width: 250px;
+                margin: 25px;
+            }
+
+            #Altura {
+                width: 250px;
+                margin: 25px;
+            }
+
+            #btn-calcular {
+                margin: 25px;
+            }
+
+            #Apagar {
+                margin-left: -225px;
+                color: black;
+                font-family: Apple Chancery, cursive;
+                padding: 2.5px;
+                height: 35px;
+                width: 35px;
+                border-radius: 100px;
+            }
